@@ -7,7 +7,7 @@ Resources:
     Properties:
       CodeUri: app
       Handler: index.handler
-      Runtime: nodejs8.10
+      Runtime: nodejs12.x
       Events:
         GetRoot:
           Type: Api
